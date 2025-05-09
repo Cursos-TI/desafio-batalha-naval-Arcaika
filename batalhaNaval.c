@@ -17,8 +17,17 @@ int main() {
 
     };    
     
-    printf("Navio batalha1 está localizado nas seguintes coordernadas: \n[0,0]\n[0,1]\n[0,2]\n");
-    printf("Navio batalha2 está localizado nas seguintes coordernadas: \n[1,7]\n[2,7]\n[3,7]\n");
+    printf("Navio batalha 1 está localizado nas seguintes coordernadas: \n[0,0]\n[0,1]\n[0,2]\n");
+    printf("Navio batalha 2 está localizado nas seguintes coordernadas: \n[1,7]\n[2,7]\n[3,7]\n");
+    printf("\n");
+    printf("Matriz:\n");
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            printf("%d ", Tabuleiro[i][j]);
+        }
+        printf("\n");
+    }
 
     return 0;
+
 }
